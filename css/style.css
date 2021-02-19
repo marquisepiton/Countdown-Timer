@@ -1,0 +1,128 @@
+html{
+    background-color: #121212;
+    color: #66ff99 ;
+    text-align: center;
+
+
+}
+
+header{
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    font-size: 56px;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#drop{
+   
+   
+  
+    background-color: #121212;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    
+    
+
+
+}
+#showtime{
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 100px;
+    width: 300px;
+    margin-bottom: 100px;
+
+
+    
+
+}
+
+#author{
+    color: #e0e0eb;
+    text-shadow: #e0e0eb;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-right: 100px;
+    right: 50;
+    text-align: right;
+}
+
+
+
+#timer {
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    font-size: 56px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline;
+    margin-bottom: 500px;
+    
+  }
+  #clock{
+      margin: 30px;
+      font-size: 45px;
+      margin-bottom:0px;
+
+
+  }
+  #times{
+      font-size: 50px;
+      margin-bottom:0px;
+  }
+  #drop{
+      
+  }
+
+  .push{
+    display: inline;
+    background-color: #121212;
+    padding: 32px 16px;
+    border:none;
+    color: #66ff99;
+    font-size: 25px;
+  }
+ 
+  .start{
+    display: inline;
+    background-color: #121212;
+    padding: 32px 16px;
+    border:none;
+    color: #66ff99;
+    font-size: 25px;
+
+  }
+  .reset{
+    display: inline;
+    background-color: #121212;
+    padding: 32px 16px;
+    border:none;
+    color: #66ff99;
+    font-size: 25px;
+
+}
+.twelveButton{
+    display: inline;
+}
+.twenty-fourButton{
+    display: inline;
+}
+
+  h1{
+    margin-bottom: 0px;
+  }
+  h2{
+      margin-top: 50px;
+      font-size: 50px;
+  }
+  
+
+

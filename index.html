@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Countdown Timer</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="Title">Countdown Starts Now!</h1>
+        <p id="author">Marquise Piton</p>
+    </header>
+    <Nav>
+        <!-- Not need because the page will show only the time and won't navigate to other pages. -->
+    </Nav>
+    <main>
+
+
+        <div id='clock'>12:00:00 AM</div>
+        <!-- <div class="clockChanger"><button class='push'>Analog</button></div> -->
+
+        <div class="twelveButton"><button class='push'>12-hour</button></div>
+        <div class="twenty-fourButton"><button class='push'>24-hour</button></div>
+
+
+        <h2>Set Alarm:</h2>
+        <form id="showTime">
+            <div id="times">
+                <label class="hourInsert">
+                    Hours:
+                    <input type="number" id='hour' min="0" placeholder="" />
+                </label>
+                <label class="minutesInsert">
+                    Minutes:
+                    <input type="number" id='minute' min="0" placeholder="" />
+                </label>
+
+                <label class="secondsInsert">
+                    Seconds:
+                    <input type="number" id='second' min="0" placeholder="" />
+                </label>
+            </div>
+
+        </form>
+        <button class='start'>Start</button>
+        <!-- <button class='stop'>Stop</button> -->
+        <input type='button' value="Reset" class="reset" />
+
+    </main>
+    <script src='js/main.js'></script>
+
+
+    <footer id="drop">
+        <!--  Here I will add social media or other meta information -->
+        <p>Before it's too late, follow me on social media: </p>
+
+        <a href="https://www.instagram.com/sirquisepiton/"><img
+                src="img/SocialMediaLogoCompressed/InstagramLogov2.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/marquise.piton/"><img
+                src="img/SocialMediaLogoCompressed/facbooklogov2.png" alt="Facebook"></a>
+        <a href="https://www.linkedin.com/in/marquisepiton/"><img
+                src="img/SocialMediaLogoCompressed/LinkedinLogov2.png" alt="Linkedin"></a>
+
+    </footer>
+</body>
+
+</html>
